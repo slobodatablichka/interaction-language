@@ -1,14 +1,31 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Страница-1" id="wHysb2epWi9NhW4RvvE4">
-    <mxGraphModel dx="2343" dy="1378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1123" dy="1658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="drawio" value="Draw.io" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="70" y="180" width="170" height="80" as="geometry"/></mxCell>
-        <mxCell id="github" value="GitHub" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="315" y="180" width="170" height="80" as="geometry"/></mxCell>
-        <mxCell id="chatgpt" value="ChatGPT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="560" y="180" width="170" height="80" as="geometry"/></mxCell>
-        <mxCell id="link-drawio-github" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;" edge="1" parent="1" source="drawio" target="github"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell id="link-github-chatgpt" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;" edge="1" parent="1" source="github" target="chatgpt"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="DA9xytiso6V0KvajDtJU-1" edge="1" parent="1" source="drawio" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;defaultLabelBackgroundColor=gap;startSize=8;endSize=8;" target="chatgpt">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="drawio" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;align=center;verticalAlign=middle;" value="Draw.io" vertex="1">
+          <mxGeometry height="80" width="170" x="70" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="github" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=18;align=center;verticalAlign=middle;" value="GitHub" vertex="1">
+          <mxGeometry height="80" width="170" x="315" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="chatgpt" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;align=center;verticalAlign=middle;" value="ChatGPT" vertex="1">
+          <mxGeometry height="80" width="170" x="560" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="link-drawio-github" edge="1" parent="1" source="drawio" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;" target="github" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link-github-chatgpt" edge="1" parent="1" source="github" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;" target="chatgpt" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
