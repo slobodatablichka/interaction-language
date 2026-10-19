@@ -4,6 +4,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="drawio" value="Draw.io" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="70" y="180" width="170" height="80" as="geometry"/></mxCell>
+        <mxCell id="github" value="GitHub" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="315" y="180" width="170" height="80" as="geometry"/></mxCell>
+        <mxCell id="chatgpt" value="ChatGPT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="560" y="180" width="170" height="80" as="geometry"/></mxCell>
+        <mxCell id="link-drawio-github" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;" edge="1" parent="1" source="drawio" target="github"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="link-github-chatgpt" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;" edge="1" parent="1" source="github" target="chatgpt"><mxGeometry relative="1" as="geometry"/></mxCell>
       </root>
     </mxGraphModel>
   </diagram>
